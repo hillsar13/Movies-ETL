@@ -3,7 +3,8 @@
 ## Purpose
 The purpose of this analysis was to create a pipeline that takes in data, transforms the data, and loads the data into existing tables. This analysis was completed using refactored code. We began by writing a function to include data from three separate data sources:
 
-<img width="649" alt="Screen Shot 2022-02-21 at 12 03 44 PM" src="https://user-images.githubusercontent.com/95551195/155013551-db6afff0-5bce-47fc-9027-a463d6207b00.png">
+<img width="871" alt="Screen Shot 2022-02-25 at 1 15 51 PM" src="https://user-images.githubusercontent.com/95551195/155793655-830dd24b-e03c-4387-bb76-8c2e77f1ec33.png">
+
 
 We were successfully able to extract and transform data from a Wikipedia & Kaggle data source:
 
@@ -16,7 +17,7 @@ We were successfully able to extract and transform data from a Wikipedia & Kaggl
 
 We then read that data into a Postgres SQL databse for future use:
 
-<img width="127" alt="Screen Shot 2022-02-21 at 11 53 30 AM" src="https://user-images.githubusercontent.com/95551195/155013442-a73bc7f3-a4eb-4bfa-9523-dcafaa982196.png">
+<img width="98" alt="movies_query" src="https://user-images.githubusercontent.com/95551195/155793790-9d2fa288-1e3d-4605-840c-d39530fbca64.png">
 
 <img width="149" alt="ratings_query" src="https://user-images.githubusercontent.com/95551195/155013455-f6e76d71-1528-4a83-8a06-863e3a78493c.png">
 
